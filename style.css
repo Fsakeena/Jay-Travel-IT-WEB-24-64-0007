@@ -1,0 +1,164 @@
+.navbar{
+    justify-content: space-between;
+}
+
+.logo{
+    color: tomato;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item a{
+    justify-content: space-between;
+    color: #ccc;
+    margin-right: 50px;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.navbar-nav .nav-item .home{
+    color: tomato;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+ h2{
+    margin-top: 20px;
+    color: tomato;
+    align-items: center;
+    text-align: center;
+}
+
+.des-gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    float: left;
+    justify-content: center;
+    border: none;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    
+  }
+
+  .gallery-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallery-item {
+    flex: 1 1 18%; /* Adjust to ensure 5 images fit in one row */
+    margin: 10px;
+    max-width: calc(20% - 20px); /* Ensures images are responsive */
+}
+
+.experience{
+    padding: 20px;
+}
+.experience .size{
+    color: tomato;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.experience  .size-desc{
+    color: #aaa;
+    text-transform: capitalize;
+    gap: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review{
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    border-bottom: 2px solid rgb(85, 85, 148);
+}
+
+h4{
+    color: rgb(85, 85, 148);
+}
+
+span{
+    color: rgb(85, 85, 148); 
+}
+
+
+
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    background-color: #56c1ff;
+    border-color: #56c1ff;
+}
+
+.footer {
+    background-color: #024;
+    color: white;
+    padding: 40px 0;
+}
+.footer a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.footer h5 {
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.footer .contact-info i {
+    color: #f96302;
+    margin-right: 10px;
+}
+.footer-bottom {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
